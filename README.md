@@ -2,14 +2,31 @@
 ## LogIn Page
 ![image](https://user-images.githubusercontent.com/70820223/221909037-b923b9b4-9850-4e77-bd9e-14957a41eed9.png)
 ## Main Page
-![image](https://user-images.githubusercontent.com/70820223/221908900-e1b8382e-dfe5-4245-8c5a-a83ff03aa995.png)
+![image](https://user-images.githubusercontent.com/70820223/223456492-3350fb54-7c5f-4704-aae9-952f92dfe42d.png)
 ## Track Switch
-![image](https://user-images.githubusercontent.com/70820223/221909150-996172e7-08f4-4750-878c-d3ddba5d29cb.png)
+![image](https://user-images.githubusercontent.com/70820223/223456663-a0b9ee68-8bf7-4235-ba11-e6aaa1d86616.png)
 ## Main Function
 - Sign In<br>
   Method — "POST"<br>
   Params — __username__ string, __password__ string<br>
   Returns a response to a login request<br>
+
+- Shuffle songs<br>
+  Method — "GET"<br>
+  Returns a list of songs in random order<br> 
+
+- Repeat song/playlist<br>
+  Method — "GET"<br>
+  Return the repeat of the track or songs in the playlist<br>
+
+- Sleep timer<br>
+  Method — "POST"<br>
+  Return the end of the playback after a period of time<br>
+
+- Get card of artist by Id<br>
+  Method —  "GET"<br>
+  Params — __ArtistId__ int<br>
+  Return a list of matches with request<br>
 
 - Get songs by Id<br>
   Method — "GET"<br>
@@ -59,6 +76,11 @@ Info about song:
 - __AuthorName__ string
 - __Duration__ date 
 
+## Artist Data
+Info about artist:
+- __Id__ int
+- __Name__ string
+- __Mediateka__ array of songs & playlists
 ## Playlist Data
 Info about playlist:
 - __Id__ int
