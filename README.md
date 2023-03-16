@@ -1,8 +1,12 @@
 # MusicService
+## Sing Up Page
+![image](https://user-images.githubusercontent.com/70820223/225691821-ac66cf6c-0ca8-414d-8a2e-7e144349ff3b.png)
+## Main Page (Without An Authorized User)
+![image](https://user-images.githubusercontent.com/70820223/225689234-b48ff869-bc78-4be5-adff-fab5630d38a2.png)
 ## LogIn Page
 ![image](https://user-images.githubusercontent.com/70820223/221909037-b923b9b4-9850-4e77-bd9e-14957a41eed9.png)
-## Main Page
-![image](https://user-images.githubusercontent.com/70820223/223456492-3350fb54-7c5f-4704-aae9-952f92dfe42d.png)
+## Main Page (With An Authorized User)
+![image](https://user-images.githubusercontent.com/70820223/225687374-699a10d1-07f6-412e-a2f9-41b377680db6.png)
 ## Track Switch
 ![image](https://user-images.githubusercontent.com/70820223/223456663-a0b9ee68-8bf7-4235-ba11-e6aaa1d86616.png)
 ## Main Function
