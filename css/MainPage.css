@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Inter:wght@200;400&display=swap');
+
+html, body {
+    background-color: #2C3130;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.search-input { margin: auto; }
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 16px; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.main {
+    margin-top: 15px;
+    padding-bottom: 100px;
+    flex: 1 1 auto;
+}
+
+.search-input {
+    outline: none;
+    border: 0; 
+    border-radius: 90px;
+    padding: 10px 30px;
+}
+
+.sign-up-button {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.main-add-playlist-button {
+    margin-top: 10px;
+    border: none;
+    background: none;
+}
+
+.hr {
+    color: black; /*?*/
+}
+
+.main-warning {
+    color: #5E6964 !important;
+    font-size: 50px;
+}
+
+.footer {
+    background-color: #9B5E16;
+    display: flex;
+}
+
+.footer-song-title {
+    color: white;
+}
+
+.footer-author-name {
+    color: #B7AEAE;
+}
+
+.main span[class^="main"] {
+    color: white;
+}
